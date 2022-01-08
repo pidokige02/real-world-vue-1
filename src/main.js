@@ -6,7 +6,7 @@ import store from './store'
 Vue.config.productionTip = false
 
 new Vue({
-  router,
+  router,//tell our Vue instance to use the router we’ve imported:
   store,
   render: h => h(App)
 }).$mount('#app')

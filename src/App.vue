@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Home</router-link>
+      <!-- component whose job is to link to a specific route. -->
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
+    <!-- A placeholder which renders the matched component -->
   </div>
 </template>
 
